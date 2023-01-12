@@ -81,10 +81,10 @@ from sklearn.model_selection import StratifiedKFold
 
 """# **Crawling Twitter Dataset**"""
 
-ACCESS_TOKEN = '1491321301377904640-3f34SrhEWeXTNchIPVp7P1ZETxaoN0'
-ACCESS_TOKEN_SECRET = 'sc3mB96PjXkR53e5K4g8binVxuohShV1WYZsuxkbofxCH'
-CONSUMER_KEY = '77fSLVCOYcm2pX5rwxieKYEI4'
-CONSUMER_SECRET = 'nikfO3dn95p5em3hgXUO7SYFuHpH3DS7S0WByOvoDaE3L9zbD1'
+ACCESS_TOKEN = ''
+ACCESS_TOKEN_SECRET = ''
+CONSUMER_KEY = ''
+CONSUMER_SECRET = ''
 
 auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
 auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
